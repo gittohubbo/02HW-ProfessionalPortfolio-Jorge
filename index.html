@@ -1,140 +1,142 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Responsive Web Design</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <h1>Jorge</h1>
-        <div>
-            <ul>
-                <li>
+<html lang="en">
+<head>
+    <title>My Professional Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
+</head>
+
+<body> 
+    <main id="main-parent" style="max-width: 100%;">
+        <header>
+            <div class="header" style="max-width: 100%; display: flex; flex-direction: row;">
+                <div class="name">
+                    <h1>Jorge</h1>
+                </div>
+              <div class="top-links" style="display: flex; flex-direction: row;">
+                <ul>
+                  <li>
                     <a href="#about-me">About Me</a>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <a href="#work">Work</a>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <a href="#resume">Resume</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    </header>
-    
-    <div style="background-image: url(./assets/images/sky.jpeg);
-                background-repeat:no-repeat;
-                background-attachment: fixed;
-                background-size:cover;">
-    
-    
-
-    <div class="banner">
-      <section class="hello-world">
-        <h1>Hello World!</h1>
-      </section>
-    </div>
-
-    <main>
-      <section class="left-column">
-        <div class="product-slideshow">
-         
-          <!-- Wrap the image in a div to avoid weird flexbox behavior -->
-          <div>
-            <h1>About Me</h1>
-          </div>
-         
-        </div>
-        <div class="right-column">
-          
-          <p>Information about Jorge</p>
-          <p>More Information here!</p>
-          <p>And more!</p>
-          <p>And more!</p>
-          <p>And more!</p>
-          <p>
-            
-          </p>
-        </div>
-      </section>
-
-      <section class="left-column">
-        <div class="product-slideshow">
-          
-          <!-- Wrap the image in a div to avoid weird flexbox behavior -->
-          <div>
-            <h1>Work</h1>
-          </div>
-         
-        </div>
-        <div class="right-column">
-          <div class="work-images">
-            <img class="full-width" src="./assets/images/collaborate.jpeg" alt="collaborate" />
-          </div>
-
-          <div class="side-by-side-images">
-          <div class="work-images">
-            <img class="half-width" src="./assets/images/collaborate.jpeg" alt="collaborate" />
-          </div>
-          <div class="work-images">
-            <img class="half-width" src="./assets/images/collaborate.jpeg" alt="collaborate" />
-          </div>
-          </div>
-
-          <div class="side-by-side-images">
-            <div class="work-images">
-              <img class="half-width" src="./assets/images/collaborate.jpeg" alt="collaborate" />
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="work-images">
-              <img class="half-width" src="./assets/images/collaborate.jpeg" alt="collaborate" />
-            </div>
-            </div>
+        </header>
 
-        </div>
-      </section>
+        <section id="banner-img" style="background-image: url(./skypurple.png); background-size:cover; background-repeat: no-repeat;">
+            <div class="banner">
+                <div class="banner-text">
+                  <h1>My Professional Portfolio</h1>
+                </div>
+            </div>
+        </section>
 
-      <section class="left-column">
-        <div class="product-slideshow">
-         
-          <!-- Wrap the image in a div to avoid weird flexbox behavior -->
-          <div>
-            <h1>Contact Me</h1>
-          </div>
-         
-        </div>
-        <div class="right-column">
-          
-          <div clas="contact-me">
-            <ul>
-                <li>
-                    <a href="#phone-number">555-555-5555</a>
-                </li>
-                <li>
-                    <a href="#email">johndoe@email.com</a>
-                </li>
-                <li>
-                    <a href="#github">Github</a>
-                </li>
-                <li>
-                    <a href="#twitter">Twitter</a>
-                </li>
-            </ul>
-        </div>
-        </div>
-      </section>
+        <section id="about-me" style="display: flex; flex-direction: row;">
+            <div class="left-column">
+                <h1>About Me</h1>
+            </div>
+            <div class="right-column" style="display: flex; flex-direction: column;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus nisi repellat rerum numquam placeat quia exercitationem doloribus cupiditate eum. Consequatur corporis eum voluptatibus reiciendis error, consectetur quam minima ipsum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus nisi repellat rerum numquam placeat quia exercitationem doloribus cupiditate eum. Consequatur corporis eum voluptatibus reiciendis error, consectetur quam minima ipsum!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus nisi repellat rerum numquam placeat quia exercitationem doloribus cupiditate eum. Consequatur corporis eum voluptatibus reiciendis error, consectetur quam minima ipsum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus nisi repellat rerum numquam placeat quia exercitationem doloribus cupiditate eum. Consequatur corporis eum voluptatibus reiciendis error, consectetur quam minima ipsum!
+                </p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="work" style="display: flex; flex-direction: row;">
+            <div class="left-column" style="border-right: 4px solid black;">
+                <h1>Work</h1>
+            </div>
+            <div class="right-column" style="max-width: 100%; flex-direction: column;">
+                <div class="large-img-container" style="background-image: url(./abstract3.jpeg);" alt="abstract3">
+                    <div class="large-img-text">
+                        <h1>Surf Report</h1>
+                        <h2>Mern Stack</h2>
+                    </div>
+                </div>
+                <div class="four-img-container">
+                    <div class="two-img-container" style="display: flex; flex-direction: row;">
+                        <div class="one-small-img-container" style="background-image: url(./keyboard.jpg);">
+                            <div class="small-img-text">
+                                <h1>LED Wall</h1>
+                                <h2>Note/IoT</h2>
+                            </div>
+                        </div>
+                        <div class="one-small-img-container" style="background-image: url(./microchip.jpeg);">
+                            <div class="small-img-text">
+                                <h1>Calculator</h1>
+                                <h2>React/JavaScript/CSS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two-img-container" style="display: flex; flex-direction: row;">
+                        <div class="one-small-img-container" style="background-image: url(./silverblocks.jpeg) ;">
+                            <div class="small-img-text">
+                                <h1>Pastel Puzzles</h1>
+                                <h2>Mern Stack</h2>
+                            </div>
+                        </div>
+                        <div class="one-small-img-container" style="background-image: url(./digital3.jpeg);">
+                            <div class="small-img-text">
+                                <h1>Run Buddy</h1>
+                                <h2>HTML/CSS</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="contact-me" style="display: flex; flex-direction: row;">
+            <div class="left-column" style="border-right: 4px solid black; ">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="right-column">
+                <div class="contact-links">
+                <ul>
+                    <li>
+                      <a href="#phone-number">555-555-5555</a>
+                    </li>
+                    <li>
+                      <a href="#email">johndoe@email.com</a>
+                    </li>
+                    <li>
+                      <a href="#github">GitHub</a>
+                    </li>
+                    <li>
+                      <a href="#twitter">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#spotify">Spotify</a>
+                    </li>       
+                </ul>
+                  </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-      <h3>
-        Footer here
-      </h3>
-    </footer>
-  </body>
+        <h3>
+          Made <p><span style="font-size:80%;color:rgb(164, 202, 189);">&nbsp; &#64; &nbsp;</span> </p>jbLabs
+        </h3>
+      </footer>
+
+</body>
 </html>
